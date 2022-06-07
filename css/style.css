@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu li{
+    list-style-type: none ;
+    color: white;
+    margin-left: -5px;
+}
+.menu a , .faq-list a, a{
+    text-decoration: none;
+    color: white;
+}
+
+.image-left img{
+    height: 450px;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+  }
+  
+.swiper-slide .testimony-person img {
+    width: 70px;
+    height: 80px;
+  }
+.swiper-slide .theRating  img{
+  width: 30%;
+}
+.team-person{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.service-logo-4 img{
+  width: 65%;
+}
+
+.faq-list li{
+  list-style-type: none;
+  background: rgb(213, 214, 216);
+}
+
+
+.section2-body a{
+    background:  rgb(0, 4, 54) !important; 
+}
+
+.section5 h3, .section2-body h2{
+  color:  rgb(0, 4, 54) !important; ;
+}
