@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WonderLand</title>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
@@ -16,40 +15,46 @@
 
 </head>
 <body>
-    <div class="section1-header bg-light">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container mb-3 ">
-              <a class="navbar-brand" href="index.html">The Wonderland Estate</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-             
-                <form class="d-flex" role="left-tag">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="service.html">Services</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="about.html">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
-                          </li>
-                        </ul>
-                  <input class="form-control me-2" type="search" placeholder="Check suitable environment" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-        </nav>
-            </div>
+  <div class="section1-header fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./img/tasko2.png" class="img-fluid" width="12%"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="search-button d-flex" role="search">
+
+            <input class="form-control me-2 px-3" type="search" placeholder="Check suitable environment" aria-label="Search">
+            <button class="btn btn-outline-white text-white" type="submit">Search</button>
+          </form>
         </div>
-    <div class="section1-body mb-4">
+      </div>
+    </nav>
+    
+    
+    
+   </div>
+   <div class="section-space my-4"></div>
+    
+    <div class="section1-body pt-3 mb-5">
         <div class="container">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -57,30 +62,30 @@
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="100">
-                    <img src="./img/slider-image1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="./img/slider-image1.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption ">
                       <h3 class="">The Wonderland</h3>
                       <p class="fs-5"> ...heaven on earth at affordable price</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./img/slider-image2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                       <h5>Lorem, ipsum dolor.</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./img/home-4.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                       <h3>Lorem, ipsum dolor.</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./img/slider-image4.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                       <h3>Lorem, ipsum dolor.</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -98,14 +103,14 @@
         </div>
     </div>
 
-    <div class="section2-body mb-5">
-        <div class="container">
+    <div class="section2-body container-fluid">
+        <div class="container pt-4">
           <div class="text-center">
               <h2>Check out the listings</h2>
           </div>
                 <div class="row mb-3">
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                         <img src="./img/listing-1.jpg" class="card-img-top" alt="listing-1">
                         <div class="card-body">
                           <h5 class="card-title">Imperial Garden</h5>
@@ -117,7 +122,7 @@
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                         <img src="./img/listing-2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Japanesee</h5>
@@ -129,7 +134,7 @@
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                         <img src="./img/listing-3.jpg"  class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Japanesee</h5>
@@ -141,7 +146,7 @@
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                         <img src="./img/listing-4.jpg" height="180px" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">The Atlantis</h5>
@@ -155,7 +160,7 @@
                 </div>
                 <div class="row">
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                     <img src="./img/listing-5.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">The Atlantis</h5>
@@ -167,7 +172,7 @@
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                     <img src="./img/listing-6.jpg" height="180px" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">The Atlantis</h5>
@@ -179,7 +184,7 @@
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-12 mb-2">
-                      <div class="card">
+                      <div class="card border-0 shadow mb-3 bg-body rounded">
                     <img src="./img/listing-7.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">The Atlantis</h5>
@@ -191,7 +196,7 @@
                       </div>
                   </div>
                   <div class="col">
-                  <div class="card">
+                  <div class="card border-0 shadow mb-3 bg-body rounded">
                     <img src="./img/listing-1.jpg"  class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">The Atlantis</h5>
@@ -210,15 +215,12 @@
                 
                   </div>
                 </div>
-        </div> <div class="text-center my-5">
-              <a href="#" class="btn btn-success">Load More Listings</a>
+        </div> <div class="text-center mt-5">
+              <a href="#" class="btn btn-success mb-3">Load More Listings</a>
             </div>
     </div>
-    </div>
 
-    <div class="section3">
-
-    </div>
+    
     <div class="section4-body bg-light py-5">
     <div class="container text-center">
     <h3 class="text- primary  py-3"> Testimonials</h3>
@@ -371,16 +373,16 @@
   </div>
   </div>
 
-    <div class="section5">
-      <div class="section5-body bg-success bg-opacity-10 ">
+    <div class="section5-home container-fluid">
+      <div class="section5-body">
         <div class="container ">
                 <div class="row">
-                <div class="image-left col-lg-4 col-md-12 col-12 px-5">
+                <div class="image-left col-lg-4 col-12 px-5 d-md-none d-lg-block">
                   <img src="./img/answers.jpg" class="img-fluid">
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
                 <div class="text-right py-3">
-                  <h3  class="text-center text-primary"> Frequently Asked Questions</h3>
+                  <h3  class="text-center"> Frequently Asked Questions</h3>
                   <p  class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi quae odio distinctio ut ab pariatur hic, placeat molestiae beatal. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, provident</p>
                 </div>
               
@@ -416,44 +418,45 @@
         </div>
     </div>
     </div>
+    </div>
 <div class="section6 py-4">
 <div class="container">
   <div class="brands d-flex text-center ms-5 row" >
           <div class="col-lg-2">
-              <img src="./img/client-6.png" alt="" width="80%" height="70%" class="me-5 " >
+              <img src="./img/client-6.png" alt=""  class="me-5 img-fluid " >
           </div>
 
           <div class="col-lg-2">
-              <img src="./img/client-5.png" alt="" width="80%" height="70%" class="me-5">
+              <img src="./img/client-5.png" alt=""  class="me-5 img-fluid">
           </div>
           <div class="col-lg-2">
-              <img src="./img/client-4.png" alt="" width="80%" height="80%" class="me-5">
+              <img src="./img/client-4.png" alt="" class="me-5 img-fluid">
           </div>
           <div class="col-lg-2">
-              <img src="./img/client-3.png" alt="" width="80%" height="80%" class="me-5">
+              <img src="./img/client-3.png" alt=""  class="me-5 img-fluid">
               </div>
           <div class="col-lg-2">
-              <img src="./img/client-1.png" alt="" width="80%" height="80%" class="me-5">
+              <img src="./img/client-1.png" alt="" class="me-5 img-fluid">
             </div>
           <div class="col-lg-2">
-              <img src="./img/client-2.png" alt="" width="80%" height="70%" class="me-5">
+              <img src="./img/client-2.png" alt="" class="me-5 img-fluid">
             </div>
   </div>
 </div>
 </div>
-    <div class="section7 bg-light py-5">
+    <div class="section7-home bg-light py-5">
       <div class="container">
       <div class="row">
         <div class="body-left me-8 col-lg-5" >
-          <h3 class="text-success"> Subscribe to our newsletter</h3><hr>
+          <h3 > Subscribe to our newsletter</h3><hr>
           <p class="fs-5">Stay updated with the latest listings and reports</p>
           <form>
           <label for="message" class="fs-5"> Message</label></br>
           <input type="text" id="mesaage" placeholder="Email" class="bg-light ps-3 pe-5 py-1 ">
-          <a href="" class="bg-success px-3 py-2 text-white text-decoration-none fs-6">Subscribe</a>
+          <a href="" class="px-3 py-2 text-white text-decoration-none fs-6" id="subscribe">Subscribe</a>
         </form>
         </div>
-        <div class="body-right bg-success px-5 text-center pt-5 fs-5 text-warning mt-4 col-lg-5">
+        <div class="body-right-home text-white px-5 text-center pt-5 fs-5 text-warning mt-4 col-lg-5">
           <P>0700 Wonder /(09090909090)</P>
           <p>cxc@Wonderland.com</p>
         </div>
@@ -462,7 +465,7 @@
     </div>
     <div class="section8">
       <div class="section8-body">
-      <div class="container-fluid bg-success bg-gradient">
+      <div class="container-fluid">
         <div class="container py-4">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-12">
@@ -498,7 +501,7 @@
             <div class="row-2 text-white py-4">
               <h4 class=""> Connect with us</h4>
               <div class="">
-                <img src="./img/social.png">
+                .<img src="./img/social.png">
                </div>
         </div>
 
@@ -506,21 +509,21 @@
             </div>
         </div>
       </div>
-      </div>
+     
     </div>
     
     <div class="section9 bg-dark py-3">
       <div class="container text-white">
      <div class="row">
-      <div class="col-lg-6">
-        <p class="fs-5">The Wonderland Estate</p>
+      <div class=" footer-logo col-lg-6 col-md-5">
+        <img src="./img/tasko2.png" class="img-fluid" width="10%">
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-7">
         <div class="row">
-          <div class="col-lg-2 col-md-2 col-12" ><p>Home</p></div>
-          <div class="col-lg-2 col-md-2 col-12"><p>Service</p></div>
-          <div class="col-lg-2 col-md-2 col-12"><p>About</p></div>
-          <div class="col-lg-2 col-md-2 col-12"><p>Contact</p></div>
+          <div class="col-lg-2 col-md-2 col-12" ><p><a href="index.html">Home</a></p></div>
+          <div class="col-lg-2 col-md-2 col-12"><p><a href="service.html"> Service</a></p></div>
+          <div class="col-lg-2 col-md-2 col-12"><p><a href="about.html"> About</a></p></div>
+          <div class="col-lg-2 col-md-2 col-12"><p><a href="contact.html"> Contact</a></p></div>
           <div class="col-lg-2 col-md-2 col-12"><p>&copy;wonderLand2022</p></div>
         </div>
       </div>
@@ -531,11 +534,7 @@
 
 
 
-    
-    <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-   
      <!-- Swiper JS -->
      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -547,6 +546,10 @@
           grabCursor: true,
           centeredSlides: true,
           slidesPerView: "auto",
+          navigation:{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
           coverflowEffect: {
             rotate: 50,
             stretch: 0,
@@ -556,6 +559,7 @@
           },
           pagination: {
             el: ".swiper-pagination",
+            clickable:true,
           },
 
         });

@@ -7,7 +7,6 @@
 .menu li{
     list-style-type: none ;
     color: white;
-    margin-left: -5px;
 }
 .menu a , .faq-list a, a{
     text-decoration: none;
@@ -52,9 +51,92 @@
 
 
 .section2-body a{
-    background:  rgb(0, 4, 54) !important; 
+    background:  rgb(0,90,176) !important; 
 }
 
 .section5 h3, .section2-body h2{
   color:  rgb(0, 4, 54) !important; ;
 }
+
+
+.brands img{
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu ul{
+  padding: 0;
+}
+
+.carousel-inner img{
+    height: 90vh;
+}
+@media (max-width: 426px){
+  .carousel-inner img{
+    height: 50vh;
+  }
+}
+   @media (max-width: 769px) {
+    .carousel-inner img{
+      height: 50vh;
+    }
+  
+}
+.section1-header, #subscribe, .body-right-home, .section8, .theSearch, .section3-about{
+  background: rgb(0,90,176);
+}
+.section2-body, .section4-service{
+  background: #E0ECF8;;  
+}
+
+
+.section2-body h2, .section3-service h4, .section3-service h3, .section2-about h5, .section2-about svg, .section4-about h3{
+  color: rgb(0,90,176) !important;
+}
+
+.location{
+  width: auto;
+  margin: 0 auto;
+}
+
+.section2-contact, .section2-service, .section2-about{
+  min-height: 90vh;
+  background-image: url("../img/background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.theInput{
+  border: none;
+  border-bottom: 1px solid rgb(0,90,176);
+  width: 100%;
+}
+.submit{
+  width: 20%;
+  background: rgb(0,90,176);
+  text-align: center;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 40px auto 10px;
+  color: white;
+  font-size: 16px;
+}
+
+
+.contact span{
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact p{
+  font-size: 16px;
+  color: rgb(0,90,176);
+}
+.contact h5, .text-right h3, .section7-home h3{
+  color: rgb(0,90,176);
+}
+
+.contact-body, .section5-home{
+  background: #E0ECF8;
+}
+
