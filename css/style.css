@@ -98,7 +98,7 @@
   width: 100%;
 }
 .submit{
-  width: 20%;
+  width: fit-content;
   background: rgb(0,90,176);
   text-align: center;
   padding: 10px;
