@@ -68,20 +68,6 @@
   padding: 0;
 }
 
-.carousel-inner img{
-    height: 90vh;
-}
-@media (max-width: 426px){
-  .carousel-inner img{
-    min-height: 50vh;
-  }
-}
-   @media (max-width: 769px) {
-    .carousel-inner img{
-      min-height: 50vh;
-    }
-  
-}
 .section1-header, #subscribe, .body-right-home, .section8, .theSearch, .section3-about{
   background: rgb(0,90,176);
 }
@@ -138,4 +124,3 @@
 .contact-body, .section5-home{
   background: #E0ECF8;
 }
-
